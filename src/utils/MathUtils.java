@@ -11,4 +11,8 @@ public class MathUtils {
     public static double addKDV(double fiyat) {
         return fiyat + (fiyat * 0.18);
     }
+
+    public static int gaussToplami(int n) {
+        return (n * (n + 1)) / 2;
+    }
 }
